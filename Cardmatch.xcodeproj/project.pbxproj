@@ -54,14 +54,22 @@
 		B2EDD4DB22247BC80070B06E /* Cardmatch */ = {
 			isa = PBXGroup;
 			children = (
-				B2EDD4DC22247BC80070B06E /* AppDelegate.swift */,
+				B2EDD4EE22247D360070B06E /* Supporting Files */,
 				B2EDD4DE22247BC80070B06E /* ViewController.swift */,
 				B2EDD4E022247BC80070B06E /* Main.storyboard */,
-				B2EDD4E322247BCA0070B06E /* Assets.xcassets */,
-				B2EDD4E522247BCA0070B06E /* LaunchScreen.storyboard */,
 				B2EDD4E822247BCA0070B06E /* Info.plist */,
 			);
 			path = Cardmatch;
+			sourceTree = "<group>";
+		};
+		B2EDD4EE22247D360070B06E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2EDD4DC22247BC80070B06E /* AppDelegate.swift */,
+				B2EDD4E322247BCA0070B06E /* Assets.xcassets */,
+				B2EDD4E522247BCA0070B06E /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
