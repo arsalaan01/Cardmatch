@@ -31,7 +31,7 @@ class ViewController: UIViewController {
             flipCard(withEmoji: emojiChoices[cardNumber], on: sender)
             
         }else{
-            print("chosen card was not in card buttons")
+            print("Chosen card was not in card buttons")
         }
     }
     
