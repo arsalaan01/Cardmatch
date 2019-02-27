@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2CD703B2225D3AF006B4A22 /* Cardmatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CD703A2225D3AF006B4A22 /* Cardmatch.swift */; };
+		B2CD703D2225D50B006B4A22 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CD703C2225D50B006B4A22 /* Card.swift */; };
 		B2EDD4DD22247BC80070B06E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EDD4DC22247BC80070B06E /* AppDelegate.swift */; };
 		B2EDD4DF22247BC80070B06E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EDD4DE22247BC80070B06E /* ViewController.swift */; };
 		B2EDD4E222247BC80070B06E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2EDD4E022247BC80070B06E /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B2CD703A2225D3AF006B4A22 /* Cardmatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardmatch.swift; sourceTree = "<group>"; };
+		B2CD703C2225D50B006B4A22 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		B2EDD4D922247BC80070B06E /* Cardmatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cardmatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2EDD4DC22247BC80070B06E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2EDD4DE22247BC80070B06E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				B2EDD4EE22247D360070B06E /* Supporting Files */,
 				B2EDD4DE22247BC80070B06E /* ViewController.swift */,
+				B2CD703A2225D3AF006B4A22 /* Cardmatch.swift */,
+				B2CD703C2225D50B006B4A22 /* Card.swift */,
 				B2EDD4E022247BC80070B06E /* Main.storyboard */,
 				B2EDD4E822247BCA0070B06E /* Info.plist */,
 			);
@@ -143,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2CD703B2225D3AF006B4A22 /* Cardmatch.swift in Sources */,
 				B2EDD4DF22247BC80070B06E /* ViewController.swift in Sources */,
 				B2EDD4DD22247BC80070B06E /* AppDelegate.swift in Sources */,
+				B2CD703D2225D50B006B4A22 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
